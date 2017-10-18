@@ -1,7 +1,7 @@
 package ReliableCommunication.SWocket;
 
 public class Message<T> {
-    int sizeOfAMessage;
+    int sizeOfMessage;
     T msg;
 
     public Message() {
@@ -10,7 +10,7 @@ public class Message<T> {
 
     public Message(T t, int s) {
         this.msg = t;
-        this.sizeOfAMessage = s;
+        this.sizeOfMessage = s;
     }
 
     public T getMsg() {
