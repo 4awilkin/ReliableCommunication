@@ -35,9 +35,9 @@ public class Packet {
         data = new ArrayList<Byte>();
     }
 
-    public Packet(ArrayList<Byte> data) {
+    public Packet(ArrayList<Byte> dataSomethin) {
         header = new Header();
-        this.data = data;
+        this.data = dataSomethin;
     }
 
     public Packet(Header header, ArrayList<Byte> data) {

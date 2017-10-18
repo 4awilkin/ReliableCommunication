@@ -33,6 +33,7 @@ public class Application {
         }
 
         Message<String> finalMsg = null;
+
         /*try {
             finalMsg = channel.recv(add1, Configuration.maxMessageSize);
         } catch (InactiveChannelException e) {
